@@ -48,9 +48,6 @@ class ViewController: UIViewController {
         
         switch wine {
         case "red"?:
-            
-//            let irisClassification = irisClassificationOutput.classification
-//            irisLabel.text = String(irisClassification)
             guard let wineScore = try? self.redWine.prediction(fixedAcidity: Double(fixedAcidity.text!)!,volatileAcidity: Double(volatileAcidity.text!)!,citricAcid: Double(citricAcid.text!)!,residualSugar: Double(residualSugar.text!)!,chlorides: Double(chlorides.text!)!,freeSulfurO2: Double(freeSulfurO2.text!)!,totalSulfurO2: Double(totalSulfurO2.text!)!,density: Double(density.text!)!,pH: Double(phLevel.text!)!,sulphates: Double(sulphateLevel.text!)!,alcohol: Double(alcoholPercentage.text!)!) else {
                 fatalError("Unexpected run time error during redwine.prediction")
                 }

@@ -13,7 +13,7 @@
 		C129E06D1EF33C250073A2E0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C129E06C1EF33C250073A2E0 /* Assets.xcassets */; };
 		C129E0701EF33C250073A2E0 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C129E06E1EF33C250073A2E0 /* LaunchScreen.storyboard */; };
 		C1F170411EFB49D100A94381 /* redwine.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C1F170401EFB49CD00A94381 /* redwine.mlmodel */; };
-		C1F170421EFB5DCC00A94381 /* whitewine.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C137752E1EFB4920002A9C8A /* whitewine.mlmodel */; };
+		C1F170441EFB5DFC00A94381 /* whitewine.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = C1F170431EFB5DF800A94381 /* whitewine.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,8 +24,8 @@
 		C129E06C1EF33C250073A2E0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C129E06F1EF33C250073A2E0 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C129E0711EF33C250073A2E0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		C137752E1EFB4920002A9C8A /* whitewine.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = whitewine.mlmodel; sourceTree = "<group>"; };
 		C1F170401EFB49CD00A94381 /* redwine.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = redwine.mlmodel; sourceTree = "<group>"; };
+		C1F170431EFB5DF800A94381 /* whitewine.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = whitewine.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +73,7 @@
 			isa = PBXGroup;
 			children = (
 				C1F170401EFB49CD00A94381 /* redwine.mlmodel */,
-				C137752E1EFB4920002A9C8A /* whitewine.mlmodel */,
+				C1F170431EFB5DF800A94381 /* whitewine.mlmodel */,
 			);
 			path = coreml_models;
 			sourceTree = "<group>";
@@ -150,7 +150,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C129E0681EF33C250073A2E0 /* ViewController.swift in Sources */,
-				C1F170421EFB5DCC00A94381 /* whitewine.mlmodel in Sources */,
+				C1F170441EFB5DFC00A94381 /* whitewine.mlmodel in Sources */,
 				C1F170411EFB49D100A94381 /* redwine.mlmodel in Sources */,
 				C129E0661EF33C250073A2E0 /* AppDelegate.swift in Sources */,
 			);
